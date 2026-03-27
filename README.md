@@ -10,16 +10,16 @@
 [crate-badge]: https://img.shields.io/crates/v/line-clipping?logo=rust
 [docs-badge]: https://img.shields.io/badge/docs.rs-line_clipping-blue?logo=rust
 [license-badge]: https://img.shields.io/crates/l/line-clipping?logo=apache
-[github-badge]: https://img.shields.io/badge/github-joshka%2Fline_clipping-blue?logo=github
-[build-badge]: https://github.com/joshka/line-clipping/actions/workflows/ci.yml/badge.svg?logo=github
-[codecov-badge]: https://img.shields.io/codecov/c/github/joshka/line-clipping?logo=codecov
+[github-badge]: https://img.shields.io/badge/github-ratatui%2Fline--clipping-blue?logo=github
+[build-badge]: https://github.com/ratatui/line-clipping/actions/workflows/ci.yml/badge.svg?logo=github
+[codecov-badge]: https://img.shields.io/codecov/c/github/ratatui/line-clipping?logo=codecov
 
-[github]: https://github.com/joshka/line-clipping
+[github]: https://github.com/ratatui/line-clipping
 [crate]: https://crates.io/crates/line-clipping
 [license]: #license
 [docs]: https://docs.rs/line-clipping
-[build]: https://github.com/joshka/line-clipping/actions/workflows/ci.yml
-[codecov]: https://codecov.io/gh/joshka/line-clipping
+[build]: https://github.com/ratatui/line-clipping/actions/workflows/ci.yml
+[codecov]: https://codecov.io/gh/ratatui/line-clipping
 
 <!-- cargo-rdme start -->
 

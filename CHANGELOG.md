@@ -4,53 +4,53 @@ All notable changes to this project will be documented in this file.
 
 ## [unreleased]
 
-## [0.3.5](https://github.com/joshka/line-clipping/compare/v0.3.4...v0.3.5) - 2025-11-29
+## [0.3.5](https://github.com/ratatui/line-clipping/compare/v0.3.4...v0.3.5) - 2025-11-29
 
 ### Other
 
-- use trusted-publising ([#24](https://github.com/joshka/line-clipping/pull/24))
-- set edition 2024 and msrv 1.85 ([#23](https://github.com/joshka/line-clipping/pull/23))
-- *(deps)* bump actions/checkout in the github-actions group ([#22](https://github.com/joshka/line-clipping/pull/22))
-- *(deps)* bump bitflags in the rust-dependencies group ([#21](https://github.com/joshka/line-clipping/pull/21))
-- *(deps)* bump bitflags in the rust-dependencies group ([#18](https://github.com/joshka/line-clipping/pull/18))
-- fix clippy install ([#19](https://github.com/joshka/line-clipping/pull/19))
+- use trusted-publising ([#24](https://github.com/ratatui/line-clipping/pull/24))
+- set edition 2024 and msrv 1.85 ([#23](https://github.com/ratatui/line-clipping/pull/23))
+- *(deps)* bump actions/checkout in the github-actions group ([#22](https://github.com/ratatui/line-clipping/pull/22))
+- *(deps)* bump bitflags in the rust-dependencies group ([#21](https://github.com/ratatui/line-clipping/pull/21))
+- *(deps)* bump bitflags in the rust-dependencies group ([#18](https://github.com/ratatui/line-clipping/pull/18))
+- fix clippy install ([#19](https://github.com/ratatui/line-clipping/pull/19))
 
-## [0.3.4](https://github.com/joshka/line-clipping/compare/v0.3.3...v0.3.4) - 2025-09-28
-
-### Other
-
-- *(deps)* bump bitflags in the rust-dependencies group ([#17](https://github.com/joshka/line-clipping/pull/17))
-- *(deps)* bump actions/checkout in the github-actions group ([#16](https://github.com/joshka/line-clipping/pull/16))
-- *(deps)* bump rstest in the rust-dependencies group ([#14](https://github.com/joshka/line-clipping/pull/14))
-
-## [0.3.3](https://github.com/joshka/line-clipping/compare/v0.3.2...v0.3.3) - 2025-05-19
+## [0.3.4](https://github.com/ratatui/line-clipping/compare/v0.3.3...v0.3.4) - 2025-09-28
 
 ### Other
 
-- *(deps)* use bitflags 2.9 instead of 2.9.0 ([#12](https://github.com/joshka/line-clipping/pull/12))
+- *(deps)* bump bitflags in the rust-dependencies group ([#17](https://github.com/ratatui/line-clipping/pull/17))
+- *(deps)* bump actions/checkout in the github-actions group ([#16](https://github.com/ratatui/line-clipping/pull/16))
+- *(deps)* bump rstest in the rust-dependencies group ([#14](https://github.com/ratatui/line-clipping/pull/14))
 
-## [0.3.2](https://github.com/joshka/line-clipping/compare/v0.3.1...v0.3.2) - 2025-05-13
+## [0.3.3](https://github.com/ratatui/line-clipping/compare/v0.3.2...v0.3.3) - 2025-05-19
 
 ### Other
 
-- add badges to readme ([#10](https://github.com/joshka/line-clipping/pull/10))
+- *(deps)* use bitflags 2.9 instead of 2.9.0 ([#12](https://github.com/ratatui/line-clipping/pull/12))
+
+## [0.3.2](https://github.com/ratatui/line-clipping/compare/v0.3.1...v0.3.2) - 2025-05-13
+
+### Other
+
+- add badges to readme ([#10](https://github.com/ratatui/line-clipping/pull/10))
 - update readme from lib.rs
-- fix lints and docs ([#9](https://github.com/joshka/line-clipping/pull/9))
-- add CI for no_std ([#7](https://github.com/joshka/line-clipping/pull/7))
+- fix lints and docs ([#9](https://github.com/ratatui/line-clipping/pull/9))
+- add CI for no_std ([#7](https://github.com/ratatui/line-clipping/pull/7))
 
-## [0.3.1](https://github.com/joshka/line-clipping/compare/v0.3.0...v0.3.1) - 2025-05-13
+## [0.3.1](https://github.com/ratatui/line-clipping/compare/v0.3.0...v0.3.1) - 2025-05-13
 
 ### Other
 
-- add better tests ([#5](https://github.com/joshka/line-clipping/pull/5))
+- add better tests ([#5](https://github.com/ratatui/line-clipping/pull/5))
 
-## [0.3.0](https://github.com/joshka/line-clipping/compare/v0.2.2...v0.3.0) - 2025-05-11
+## [0.3.0](https://github.com/ratatui/line-clipping/compare/v0.2.2...v0.3.0) - 2025-05-11
 
 ### Other
 
 - tidy up tests and impl of cohen_sutherland
 
-## [0.2.2](https://github.com/joshka/line-clipping/compare/v0.2.1...v0.2.2) - 2025-05-11
+## [0.2.2](https://github.com/ratatui/line-clipping/compare/v0.2.1...v0.2.2) - 2025-05-11
 
 ### Added
 
@@ -64,7 +64,7 @@ All notable changes to this project will be documented in this file.
 
 - add rustfmt config
 - add git-cliff generated changelog
-- *(deps)* bump bitflags in the rust-dependencies group ([#2](https://github.com/joshka/line-clipping/pull/2))
+- *(deps)* bump bitflags in the rust-dependencies group ([#2](https://github.com/ratatui/line-clipping/pull/2))
 - add ci and release workflows
 
 ### 🚀 Features
