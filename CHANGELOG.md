@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 ## [unreleased]
 
+## [0.3.7](https://github.com/ratatui/line-clipping/compare/v0.3.6...v0.3.7) - 2026-03-27
+
+### Other
+
+- Reach 100% coverage in Cohen-Sutherland ([#30](https://github.com/ratatui/line-clipping/pull/30))
+
 ## [0.3.6](https://github.com/ratatui/line-clipping/compare/v0.3.5...v0.3.6) - 2026-03-27
 
 ### Other
