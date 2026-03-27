@@ -69,41 +69,45 @@ pub fn clip_line(mut line: LineSegment, window: Window) -> Option<LineSegment> {
     let mut region_1 = Region::from_point(line.p1, window);
     let mut region_2 = Region::from_point(line.p2, window);
 
-    while region_1.is_outside() || region_2.is_outside() {
+    loop {
         if region_1.intersects(region_2) {
             // The line is completely outside the clipping window.
             return None;
-        }
-        if region_1.is_outside() {
+        } else if region_1.is_outside() {
             line.p1 = calculate_intersection(line.p1, line.p2, region_1, window);
             region_1 = Region::from_point(line.p1, window);
-        } else {
+        } else if region_2.is_outside() {
             line.p2 = calculate_intersection(line.p2, line.p1, region_2, window);
             region_2 = Region::from_point(line.p2, window);
+        } else {
+            return Some(line);
         }
     }
-
-    Some(line)
 }
 
+/// Calculates the intersection between the line segment and the boundary identified by `region`.
+///
+/// This helper must only be called for regions outside the clipping window. Callers are expected
+/// to guard that precondition before selecting which endpoint to clip.
 fn calculate_intersection(p1: Point, p2: Point, region: Region, window: Window) -> Point {
     let dx = p2.x - p1.x;
     let dy = p2.y - p1.y;
     if region.contains(Region::LEFT) {
         let y = p1.y + (window.x_min - p1.x) * dy / dx;
-        Point::new(window.x_min, y)
-    } else if region.contains(Region::RIGHT) {
-        let y = p1.y + (window.x_max - p1.x) * dy / dx;
-        Point::new(window.x_max, y)
-    } else if region.contains(Region::BOTTOM) {
-        let x = p1.x + (window.y_min - p1.y) * dx / dy;
-        Point::new(x, window.y_min)
-    } else if region.contains(Region::TOP) {
-        let x = p1.x + (window.y_max - p1.y) * dx / dy;
-        Point::new(x, window.y_max)
-    } else {
-        p1
+        return Point::new(window.x_min, y);
     }
+    if region.contains(Region::RIGHT) {
+        let y = p1.y + (window.x_max - p1.x) * dy / dx;
+        return Point::new(window.x_max, y);
+    }
+    if region.contains(Region::BOTTOM) {
+        let x = p1.x + (window.y_min - p1.y) * dx / dy;
+        return Point::new(x, window.y_min);
+    }
+
+    debug_assert!(region.contains(Region::TOP));
+    let x = p1.x + (window.y_max - p1.y) * dx / dy;
+    Point::new(x, window.y_max)
 }
 
 bitflags! {
