@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 
 ## [unreleased]
 
+## [0.3.6](https://github.com/ratatui/line-clipping/compare/v0.3.5...v0.3.6) - 2026-03-27
+
+### Other
+
+- *(deps)* bump codecov/codecov-action in the github-actions group ([#28](https://github.com/ratatui/line-clipping/pull/28))
+- reflect move from joshka to ratatui ([#29](https://github.com/ratatui/line-clipping/pull/29))
+- *(deps)* bump bitflags in the rust-dependencies group ([#27](https://github.com/ratatui/line-clipping/pull/27))
+- *(deps)* bump actions/checkout in the github-actions group ([#25](https://github.com/ratatui/line-clipping/pull/25))
+
 ## [0.3.5](https://github.com/ratatui/line-clipping/compare/v0.3.4...v0.3.5) - 2025-11-29
 
 ### Other
