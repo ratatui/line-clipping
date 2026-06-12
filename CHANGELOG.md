@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 ## [unreleased]
 
+## [0.3.8](https://github.com/ratatui/line-clipping/compare/v0.3.7...v0.3.8) - 2026-06-12
+
+### Other
+
+- *(deps)* bump codecov/codecov-action from 6 to 7 in the github-actions group ([#33](https://github.com/ratatui/line-clipping/pull/33))
+
 ## [0.3.7](https://github.com/ratatui/line-clipping/compare/v0.3.6...v0.3.7) - 2026-03-27
 
 ### Other
