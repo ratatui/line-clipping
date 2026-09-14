@@ -16,7 +16,7 @@ categories = ["algorithms", "graphics"]
 bitflags = "2.11"
 
 [dev-dependencies]
-rstest = "0.26"
+rstest = "0.27"
 
 [lints.clippy]
 nursery = { level = "warn" }
