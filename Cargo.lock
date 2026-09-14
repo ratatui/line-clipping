@@ -83,7 +83,7 @@ dependencies = [
 
 [[package]]
 name = "line-clipping"
-version = "0.3.8"
+version = "0.3.9"
 dependencies = [
  "bitflags",
  "rstest",
