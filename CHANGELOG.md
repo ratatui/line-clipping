@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 ## [unreleased]
 
+## [0.3.9](https://github.com/ratatui/line-clipping/compare/v0.3.8...v0.3.9) - 2026-10-26
+
+### Other
+
+- *(deps)* bump rstest from 0.27.0 to 0.28.0 in the rust-dependencies group ([#41](https://github.com/ratatui/line-clipping/pull/41))
+- *(deps)* bump the rust-dependencies group with 2 updates ([#39](https://github.com/ratatui/line-clipping/pull/39))
+
 ## [0.3.8](https://github.com/ratatui/line-clipping/compare/v0.3.7...v0.3.8) - 2026-08-03
 
 ### Other
